@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ccm-plugin
+  annotations:
+    harness.io/perspective-url: https://qa.harness.io/ng/account/zEaak-FLS425IEO7OLzMUg/module/ce/perspectives/_9kGjMnoTzqnzih6CYk8CQ/name/Perspective-5MUVKR?folderId=NntOUlemSDy4v82c0R-TBg&folderName=Test&timeRange=%7B%22to%22%3A%222024-09-25%22%2C%22from%22%3A%222024-09-19%22%7D&groupBy=%7B%22fieldId%22%3A%22product%22%2C%22fieldName%22%3A%22Product%22%2C%22identifier%22%3A%22COMMON%22%2C%22identifierName%22%3A%22COMMON%22%7D&aggregation=%22DAY%22&chartType=%22area%22
+spec:
+  type: service
+  owner: "IDPAdmin"
+  lifecycle: experimental
